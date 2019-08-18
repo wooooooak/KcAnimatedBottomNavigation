@@ -7,45 +7,49 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-    <wooooooak.com.library.ToggleNavigationBar
+    <wooooooak.com.animatednavigation.ToggleNavigationBar
         android:id="@+id/navigation_bar"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:gravity="center"
         android:orientation="horizontal"
         android:paddingLeft="32dp"
         android:paddingRight="32dp"
+        app:tt_active_line_height="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <wooooooak.com.library.ToggleTabView
+        <wooooooak.com.animatednavigation.ToggleTabView
             android:id="@+id/test"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:tt_active="true"
+            app:tt_title_size="14dp"
             app:tt_icon="@drawable/ic_launcher_foreground"
+            app:tt_icon_size="40dp"
             app:tt_title="홈" />
 
-        <wooooooak.com.library.ToggleTabView
+        <wooooooak.com.animatednavigation.ToggleTabView
             android:id="@+id/test2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            app:tt_title_size="18dp"
             app:tt_icon="@drawable/ic_launcher_foreground"
             app:tt_title="팩스보내기" />
 
-        <wooooooak.com.library.ToggleTabView
+        <wooooooak.com.animatednavigation.ToggleTabView
             android:id="@+id/test3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            app:tt_tint_color="@color/colorAccent"
             app:tt_icon="@drawable/ic_launcher_foreground"
-            app:tt_title="title" />
+            app:tt_title="받은팩스함" />
 
-        <wooooooak.com.library.ToggleTabView
+        <wooooooak.com.animatednavigation.ToggleTabView
             android:id="@+id/test4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -53,14 +57,14 @@
             app:tt_icon="@drawable/ic_launcher_foreground"
             app:tt_title="title" />
 
-        <wooooooak.com.library.ToggleTabView
+        <wooooooak.com.animatednavigation.ToggleTabView
             android:id="@+id/test5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:tt_icon="@drawable/ic_launcher_foreground"
-            app:tt_title="title" />
+            app:tt_title="더보기" />
 
-    </wooooooak.com.library.ToggleNavigationBar>
+    </wooooooak.com.animatednavigation.ToggleNavigationBar>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

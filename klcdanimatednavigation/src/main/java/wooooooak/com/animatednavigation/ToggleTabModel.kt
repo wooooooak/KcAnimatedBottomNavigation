@@ -1,4 +1,4 @@
-package wooooooak.com.library
+package wooooooak.com.animatednavigation
 
 import android.graphics.drawable.Drawable
 

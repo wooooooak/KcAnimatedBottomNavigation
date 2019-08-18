@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToggleTab">
+        <attr name="tt_active" format="boolean" />
+        <attr name="tt_icon" format="reference" />
+        <attr name="tt_icon_size" format="dimension" />
+        <attr name="tt_title" format="string" />
+        <attr name="tt_title_size" format="dimension" />
+        <attr name="tt_wrapper" format="reference" />
+        <attr name="tt_top_line_height" format="dimension" />
+        <attr name="tt_tint_color" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ToggleNavigationBar">
+        <attr name="tt_active_line_height" format="dimension" />
+
+    </declare-styleable>
+</resources>

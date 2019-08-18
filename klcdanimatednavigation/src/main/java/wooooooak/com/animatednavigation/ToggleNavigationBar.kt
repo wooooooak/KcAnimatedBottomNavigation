@@ -1,4 +1,4 @@
-package wooooooak.com.library
+package wooooooak.com.animatednavigation
 
 import android.content.Context
 import android.util.AttributeSet
